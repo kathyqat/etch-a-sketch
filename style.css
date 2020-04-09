@@ -1,6 +1,10 @@
 div{
     background-color: pink;
   }
+
+.hover{
+    background-color: black;
+}
   
 .container{
     width: 95vh;

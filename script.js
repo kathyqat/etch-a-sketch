@@ -6,3 +6,11 @@ do{
   container.appendChild(div);
   i++;
 } while(i<(16*16));
+
+let squares = document.querySelectorAll('div');
+
+squares.forEach((div) => {
+  div.addEventListener('mouseover', (e) => {
+    div.classList.add('hover');
+  });
+});
