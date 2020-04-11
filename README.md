@@ -6,4 +6,7 @@ Codepen link: https://codepen.io/kathyqat/pen/qBOWzLV
 
 I'm confused as to why TOP stressed that this is a difficult project, when all of the concepts have been seen in previous assigned work. The previous Rock Paper Scissors project showed how to add JS interactivity to buttons and how to work with window prompts. The assigned JS Drum Kit challenge demonstrated how to iterate through elements and attach event listeners and edit classes. I especially found JS Drum Kit to be more difficult than this Etch-A-Sketch.
 
-Thought during process: I was going to remove the class 'hover' for each div, but I thought it would be cleaner code if I didn't keep re-assigning the squares nodelist.
+Thoughts during process: 
+1. I was going to remove the class 'hover' for each div, but I thought it would be cleaner code if I didn't keep re-assigning the squares nodelist.
+2. I left in the original code to simply draw with black, to show that I did achieve the basic project expectation.
+3. I'm very glad that filter: brightness() exists, because otherwise I would have to convert rgb() to hsl() (background-color values are given in rgb() upon inspection). That has some math and conditionals involved, which I'm too lazy to deal with right now.
