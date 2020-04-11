@@ -10,3 +10,5 @@ Thoughts during process:
 1. I was going to remove the class 'hover' for each div, but I thought it would be cleaner code if I didn't keep re-assigning the squares nodelist.
 2. I left in the original code to simply draw with black, to show that I did achieve the basic project expectation.
 3. I'm very glad that filter: brightness() exists, because otherwise I would have to convert rgb() to hsl() (background-color values are given in rgb() upon inspection). That has some math and conditionals involved, which I'm too lazy to deal with right now.
+
+The first two comments are from my code review with the awesome Kostia Arlouski. It's extremely helpful for me to know standard coding practices, clarification, and how my code is in comparison to other students.
